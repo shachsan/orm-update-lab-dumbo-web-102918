@@ -59,7 +59,7 @@ class Student
       SELECT * FROM student
       WHERE name = ?
     SQL
-    DB.
+    DB[:conn].ex
   end
 
 end
