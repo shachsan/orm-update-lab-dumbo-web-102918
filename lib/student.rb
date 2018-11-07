@@ -45,7 +45,7 @@ class Student
   end
 
   def self.create
-    student = self.new(a)
+    student = self.new(name, )
 
   end
 
