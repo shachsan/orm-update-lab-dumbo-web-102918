@@ -68,7 +68,7 @@ class Student
     sql = <<-SQL
       UPDATE students
       SET name = ?, grade =?
-      WHERE
+      WHERE id
     SQL
   end
 
