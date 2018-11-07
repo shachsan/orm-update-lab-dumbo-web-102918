@@ -44,6 +44,6 @@ class Student
     end
   end
 
-  
+  def sel.
 
 end
