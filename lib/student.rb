@@ -20,7 +20,7 @@ class Student
         grade INTEGER
       )
     SQL
-    DB[:]
+    DB[:conn]
   end
 
 end
