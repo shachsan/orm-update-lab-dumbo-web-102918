@@ -31,7 +31,7 @@ class Student
   end
 
   def save
-    if self.
+    if self.# IDEA: 
     sql = <<-SQL
       INSERT INTO students(name, grade)
       VALUES (?, ?)
