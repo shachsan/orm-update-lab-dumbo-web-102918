@@ -50,7 +50,9 @@ class Student
   end
 
   def self.new_from_db(row)
-    sql=<<-S
+    sql=<<-SQL
+
+    SQL
   end
 
 end
